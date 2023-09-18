@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+nav{
+    background: #053d71;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 2rem;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav a{
+    color: #fff;
+}
+.card{
+    text-align: center;
+    padding: 2rem;
+}
+.card h1{
+    font-size: 3rem;
+}
