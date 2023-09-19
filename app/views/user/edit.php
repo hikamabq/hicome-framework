@@ -2,9 +2,11 @@
 $this->loadView('layouts/header');
 ?>
 <form action="<?= url ?>user/edit/<?= $user->id ?>" method="post">
+    <label for="">username</label>
     <input type="text" name="username" value="<?= $user->username ?>">
+    <label for="">password</label>
     <input type="password" name="password" value="<?= $user->password ?>">
-    <button type="submit">Go</button>
+    <button type="submit">Submit</button>
 </form>
 
 <?php 

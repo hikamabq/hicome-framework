@@ -28,3 +28,17 @@ nav a{
 .card h1{
     font-size: 3rem;
 }
+.menu{
+    float: right;
+}
+.menu a{
+    padding: 0px 10px;
+}
+table{
+    margin: 1rem 0;
+    width: 50%;
+    border-collapse: collapse;
+}
+table th, table td{
+    padding: 10px;
+}
