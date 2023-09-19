@@ -9,7 +9,9 @@
 <body>
     <nav>
         <div class="container">
-            <b>Hicome Framework</b>
+            <b>Hicome Framework</b> |
+            <a href="<?= url ?>home">Home</a>
+            <a href="<?= url ?>user">User</a>
         </div>
     </nav>
     <div class="container">
