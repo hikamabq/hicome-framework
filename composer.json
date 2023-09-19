@@ -3,7 +3,7 @@
     "description": "Simple Framework",
     "type": "project",
     "require": {
-        "hikamabq/hicome": "^1.0"
+        "hikamabq/hicome": "^1.1"
     },
     "license": "MIT",
     "authors": [
