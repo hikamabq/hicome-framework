@@ -4,5 +4,5 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $config = [
-    'base_url' => 'http://localhost/hicome.org'
+    'base_url' => 'http://localhost/hicome-framework/'
 ];
