@@ -1,8 +1,10 @@
 <?php 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 $config = [
-    'base_url' => 'http://localhost/hicome-framework/'
+    'base_url' => 'http://localhost/hicome-framework/',
+    'db' => [
+        'host' => 'localhost',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'testmvc',
+    ]
 ];
