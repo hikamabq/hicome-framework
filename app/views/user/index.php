@@ -1,5 +1,5 @@
 <?php 
-$this->loadView('layouts/header');
+$this->layout('header');
 ?>
     <h3>List User</h3>
     <hr>
@@ -24,5 +24,5 @@ $this->loadView('layouts/header');
         <?php } ?>
     </table>
 <?php 
- $this->loadView('layouts/footer');
+ $this->layout('footer');
  ?>

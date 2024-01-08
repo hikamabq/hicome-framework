@@ -1,5 +1,5 @@
 <?php 
-$this->loadView('layouts/header');
+$this->layout('header');
 ?>
     <div class="card">
         <h1>Welcome</h1>
@@ -7,5 +7,5 @@ $this->loadView('layouts/header');
     </div>
 
 <?php 
-$this->loadView('layouts/footer');
+$this->layout('footer');
 ?>

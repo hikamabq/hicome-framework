@@ -1,5 +1,5 @@
 <?php 
-$this->loadView('layouts/header');
+$this->layout('header');
 ?>
 <form action="<?= url ?>user/edit/<?= $user->id ?>" method="post">
     <label for="">username</label>
@@ -10,5 +10,5 @@ $this->loadView('layouts/header');
 </form>
 
 <?php 
-$this->loadView('layouts/footer');
+$this->layout('footer');
 ?>
